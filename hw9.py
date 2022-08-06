@@ -7,7 +7,7 @@ def input_error(func):                                                    # де
         try:
             return func(*args, **kwargs)
         except IndexError:
-            print("""You have not entered all the data!!!
+            print("""You have not entered all data!!!
 --------------------------------------------------------------------------------------------------
 for adding new phone number please input:   add name tel.      (example: add Volodymyr 345-45-45)
 for change please input:                    change name tel.   (example: change Volodymyr 2345789)
